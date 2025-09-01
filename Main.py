@@ -1,4 +1,4 @@
-# Python program for Snake, Water, Gun game (Player vs Player)
+# Python program for S, W and G game (Player vs Player)
 arr=["Snake","Gun","Water"]
 player1=input("Enter any word : ")
 player2=input("Enter any word : ")        
@@ -19,7 +19,7 @@ elif player1=="Gun" and player2=="Water":
 else:
     print("Please only provide input of rock,paper and scissor")
 
-# Python program for Snake, Water, Gun game (Player vs Computer)
+# Python program for S, W and G game (Player vs Computer)
 import random
 options=[-1,0,1]
 computer=random.choice(options)
@@ -45,3 +45,4 @@ elif computer==1 and you==0:
     print("you won")
 else:
     print("Please only provide input of s,w and g")
+
